@@ -55,7 +55,7 @@ loggedUser = None
 
 @appWeb.route("/")
 def main():
-    return "pagina da visualizzare"
+    return "Vedere pagina da visualizzare"
 
 @appWeb.route("/prova")
 def prova():
